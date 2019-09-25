@@ -1,12 +1,14 @@
 package quoter;
 
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.beans.factory.annotation.Value;
 
-@Getter
-@Setter
-public class ProfilingController {
-    @Value("true")
+public class ProfilingController implements ProfilingControllerMBean {
     private boolean enabled;
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
 }

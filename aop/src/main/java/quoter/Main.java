@@ -7,8 +7,11 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 @Configuration
 public class Main {
-    public  static  void main(String[] args){
+    public  static  void main(String[] args) throws InterruptedException {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Main.class);
-        context.getBean(Quoter.class).sayQuote();
+        while(true){
+            Thread.sleep(100);
+            context.getBean(Quoter.class).sayQuote();
+        }
     }
 }
