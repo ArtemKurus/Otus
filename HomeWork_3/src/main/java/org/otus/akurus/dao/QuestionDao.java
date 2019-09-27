@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface QuestionDao {
 
-    public List<Question> loadQuestionList();
+    List<Question> loadQuestionList();
 }
