@@ -31,11 +31,4 @@ public class MainTests {
         List<Question> questions = questionDaoCSV.loadQuestionList();
         assertEquals(5, questions.size());
     }
-
-    @Test
-    public void questionTest() {
-        List<Question> questions = questionDaoCSV.loadQuestionList();
-        assertEquals(5, questions.size());
-    }
-
 }

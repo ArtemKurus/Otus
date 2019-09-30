@@ -19,23 +19,8 @@ public class TestServiceImpl implements TestService {
 
     private QuestionDao loaderDao;
 
-
     public void run() {
         Scanner scanner = new Scanner(System.in);
-        createUser(scanner);
-        runTest(scanner);
-    }
-
-    private void createUser(Scanner scanner) {
-        System.out.println("Введите имя");
-        String name = scanner.nextLine();
-        System.out.println("Введите фамилию");
-        String surname = scanner.nextLine();
-        new UserDto(name, surname);
-    }
-
-    @InjectionTest
-    private void runTest(Scanner scanner) {
         loaderDao.loadQuestionList().forEach(question -> {
             System.out.print(question.getQuestion() + ": ");
             String answer = scanner.nextLine();
@@ -47,5 +32,4 @@ public class TestServiceImpl implements TestService {
 
         });
     }
-
 }
