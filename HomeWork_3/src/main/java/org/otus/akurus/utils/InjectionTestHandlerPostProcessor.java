@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.MessageSource;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.InvocationHandler;
@@ -36,9 +37,9 @@ public class InjectionTestHandlerPostProcessor implements BeanPostProcessor {
             return Proxy.newProxyInstance(beanClass.getClassLoader(), beanClass.getInterfaces(), new InvocationHandler() {
                 @Override
                 public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                    System.out.println(messageSource.getMessage("test.start", null, Locale.ENGLISH));
+                    System.out.println(messageSource.getMessage("test.start", null, LocaleContextHolder.getLocale()));
                     Object retVal = method.invoke(bean, args);
-                    System.out.println(messageSource.getMessage("test.end", null, Locale.ENGLISH));
+                    System.out.println(messageSource.getMessage("test.end", null, LocaleContextHolder.getLocale()));
                     return retVal;
                 }
             });
