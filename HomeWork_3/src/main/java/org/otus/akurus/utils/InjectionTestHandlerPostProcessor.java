@@ -1,18 +1,23 @@
 package org.otus.akurus.utils;
 
+import lombok.AllArgsConstructor;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 @Component
+@AllArgsConstructor
 public class InjectionTestHandlerPostProcessor implements BeanPostProcessor {
     private Map<String, Class> map = new HashMap<String, Class>();
+    private MessageSource messageSource;
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
@@ -31,9 +36,9 @@ public class InjectionTestHandlerPostProcessor implements BeanPostProcessor {
             return Proxy.newProxyInstance(beanClass.getClassLoader(), beanClass.getInterfaces(), new InvocationHandler() {
                 @Override
                 public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                    System.out.println("Тестирование...");
+                    System.out.println(messageSource.getMessage("test.start", null, Locale.ENGLISH));
                     Object retVal = method.invoke(bean, args);
-                    System.out.println("Конец");
+                    System.out.println(messageSource.getMessage("test.end", null, Locale.ENGLISH));
                     return retVal;
                 }
             });

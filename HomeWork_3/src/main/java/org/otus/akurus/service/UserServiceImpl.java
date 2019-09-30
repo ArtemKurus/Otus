@@ -1,18 +1,30 @@
 package org.otus.akurus.service;
 
 import org.otus.akurus.doamin.UserDto;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Service;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 @Service
 public class UserServiceImpl implements UserService {
+
+
+    private final MessageSource messageSource;
+
+    @Autowired
+    public UserServiceImpl(MessageSource messageSource) {
+        this.messageSource = messageSource;
+    }
+
     @Override
     public void createUser() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите имя");
+        System.out.println(messageSource.getMessage("test.user",null, Locale.ENGLISH));
         String name = scanner.nextLine();
-        System.out.println("Введите фамилию");
+        System.out.println(messageSource.getMessage("test.surname",null, Locale.ENGLISH));
         String surname = scanner.nextLine();
         new UserDto(name, surname);
     }
