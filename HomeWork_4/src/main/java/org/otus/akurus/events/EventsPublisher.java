@@ -1,4 +1,4 @@
-package ru.otus.example.applicationeventsdemo.events;
+package org.otus.akurus.events;
 
 public interface EventsPublisher {
     void publish();

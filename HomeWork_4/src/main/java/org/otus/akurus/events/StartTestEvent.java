@@ -1,4 +1,9 @@
 package org.otus.akurus.events;
 
-public class StartTest {
+import org.springframework.context.ApplicationEvent;
+
+public class StartTestEvent extends ApplicationEvent {
+    public StartTestEvent(Object source) {
+        super(source);
+    }
 }
