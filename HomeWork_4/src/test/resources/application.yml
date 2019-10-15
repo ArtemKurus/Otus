@@ -1,0 +1,7 @@
+csv:
+   file: data.csv
+
+spring:
+   shell:
+      interactive:
+         enabled: false
