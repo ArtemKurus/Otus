@@ -3,7 +3,7 @@ package org.otus.akurus.domain;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Getter
 @AllArgsConstructor
@@ -11,5 +11,5 @@ public class Author {
     private long id;
     private String name;
     private String countryName;
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
 }
