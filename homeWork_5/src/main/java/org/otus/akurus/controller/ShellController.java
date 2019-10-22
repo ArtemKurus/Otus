@@ -14,7 +14,7 @@ import java.util.List;
 public class ShellController {
     private final ServiceLibrary serviceLibrary;
 
-    @ShellMethod(value = "get book by title", key = {"tbook", "bbt"})
+    @ShellMethod(value = "get book by title", key = {"getbookbytitle", "gt"})
     public String getBookByTitle(String title) {
         Book book = serviceLibrary.findByTitle(title);
         String result = "Book not found";
@@ -32,7 +32,7 @@ public class ShellController {
         });
     }
 
-    @ShellMethod(value = "get books by author", key = {"abook", "bba"})
+    @ShellMethod(value = "get books by author", key = {"getbookbyauthor", "ga"})
     public void getBookByAuthor(String author) {
         List<Book> books = serviceLibrary.findByAuthor(author);
         books.forEach(book -> {
@@ -40,13 +40,13 @@ public class ShellController {
         });
     }
 
-    @ShellMethod(value = "add book", key = {"addbook", "addb"})
+    @ShellMethod(value = "add book", key = {"addbook", "add"})
     public void addBook(String title, String genre, String authorName) {
         Book book = serviceLibrary.addBook(title, genre, authorName);
         System.out.println(" Book is add. title: " + book.getTitle() + " author:" + book.getAuthor() + " genre:" + book.getGenre());
     }
 
-    @ShellMethod(value = "delete book by title", key = {"deletebook", "delb"})
+    @ShellMethod(value = "delete book by title", key = {"deletebook", "del"})
     public void deleteBookByTitle(String title) {
         System.out.println(" Book was add. title: " + title);
     }

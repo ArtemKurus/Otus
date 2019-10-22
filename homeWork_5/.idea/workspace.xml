@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd5821f1-25fb-4c65-aedd-9b6f0e8c2b66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/AuthorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/GenreDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/GenreDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/service/ServiceLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/service/ServiceLibraryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/utils/ThrowEmptyResultDataAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/utils/ThrowEmptyResultDataAccessAnnotationBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/otus/akurus/dao/AuthorDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/otus/akurus/dao/BookDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/otus/akurus/dao/GenreDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/otus/akurus/service/ServiceLibtatyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/controller/ShellController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/controller/ShellController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/AuthorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/AuthorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/AuthorDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/AuthorDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/Genere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/GenreMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/GenereImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/domain/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/otus/akurus/domain/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/otus/akurus/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -163,11 +135,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/otus/akurus/controller/ShellController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="-147">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
+                <element signature="e#2052#2053#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -303,10 +275,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/org/otus/akurus/service/ServiceLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/otus/akurus/service/ServiceLibraryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/otus/akurus/controller/ShellController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/otus/akurus/dao/GenreDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/resources/db/changelog/db.changelog-master.yaml" />
         <option value="$PROJECT_DIR$/src/test/java/org/otus/akurus/service/ServiceLibtatyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/otus/akurus/controller/ShellController.java" />
       </list>
     </option>
   </component>
@@ -507,7 +479,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571742487955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571743136052" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -653,7 +625,7 @@
       <workItem from="1571062736589" duration="25313000" />
       <workItem from="1571564358266" duration="2422000" />
       <workItem from="1571577928797" duration="1039000" />
-      <workItem from="1571585824383" duration="29423000" />
+      <workItem from="1571585824383" duration="29814000" />
     </task>
     <servers />
   </component>
@@ -690,12 +662,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58197000" />
+    <option name="totallyTimeSpent" value="58588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -704,7 +677,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31601733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31601733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1202,11 +1175,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/otus/akurus/controller/ShellController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="-147">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
           </folding>
         </state>
       </provider>
