@@ -1,0 +1,91 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog-lesson1.yaml
+  - changeSet:
+      id: 1
+      author: Akurus
+      comment: "Create table genre"
+      changes:
+         - createTable:
+            tableName: genre
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(50)
+                  constraints:
+                    unique: true
+                    nullable: false
+  - changeSet:
+      id: 2
+      author: Akurus
+      comment: "Create table author"
+      changes:
+        - createTable:
+            tableName: author
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(50)
+                  constraints:
+                    unique: true
+                    nullable: false
+              - column:
+                  name: countryName
+                  type: varchar(50)
+                  constraints:
+                    unique: true
+                    nullable: false
+              - column:
+                  name: dateOfBirth
+                  type: date
+                  constraints:
+                    unique: true
+                    nullable: false
+  - changeSet:
+      id: 3
+      author: Akurus
+      comment: "Create table book"
+      changes:
+        - createTable:
+             tableName: book
+             columns:
+               - column:
+                   name: id
+                   type: BIGINT
+                   autoIncrement: true
+                   constraints:
+                     primaryKey: true
+                     nullable: false
+               - column:
+                   name: title
+                   type: varchar(50)
+                   constraints:
+                     unique: true
+                     nullable: false
+               - column:
+                   name: genre
+                   type: BIGINT
+                   constraints:
+                     nullable: false
+                     foreignKeyName: fk_book_genre
+                     references: genre(id)
+               - column:
+                   name: author
+                   type: BIGINT
+                   constraints:
+                     nullable: false
+                     foreignKeyName: fk_book_author
+                     references: author(id)

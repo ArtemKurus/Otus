@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755c6744-890e-4940-b626-58ac4a14e1b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/utils/InjectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/utils/InjectionTestHandlerPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_3/src/test/java/org/otus/akurus/service/TestServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_3/src/test/java/org/otus/akurus/service/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork_3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/service/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_3/src/main/java/org/otus/akurus/service/TestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWork_3/src/test/java/org/otus/akurus/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_3/src/test/java/org/otus/akurus/MainTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/AuthorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/GenreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/GenreDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/service/ServiceLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/service/ServiceLibraryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/utils/ThrowEmptyResultDataAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/utils/ThrowEmptyResultDataAccessAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/test/java/org/otus/akurus/dao/AuthorDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/test/java/org/otus/akurus/dao/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/test/java/org/otus/akurus/dao/GenreDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homeWork_5/src/test/java/org/otus/akurus/service/ServiceLibtatyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/controller/ShellController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/controller/ShellController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/AuthorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/AuthorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/AuthorDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/AuthorDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/Genere.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/GenreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/dao/GenereImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/domain/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/java/org/otus/akurus/domain/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeWork_5/src/test/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork_5/src/test/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/quoter/Profiling.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,10 +88,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingHandlerPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="323">
+              <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1552#2294#0" expanded="true" />
+                <element signature="e#2293#2294#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
@@ -98,10 +115,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="769">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingControllerMBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -109,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quoter/InjectRandomInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/quoter/InjectRandomIntAnotationBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="157">
               <caret line="11" column="83" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,6 +167,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ProfilingController</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -153,13 +184,13 @@
         <option value="$PROJECT_DIR$/src/main/java/quoter/Quoter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/InjectRandomInt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/quoter/InjectRandomIntAnotationBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/Terminator.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/Profiling.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/ProfilingHandlerPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/ProfilingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/quoter/ProfilingControllerMBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/quoter/InjectRandomIntAnotationBeanPostProcessor.java" />
       </list>
     </option>
   </component>
@@ -170,11 +201,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-223" />
-    <option name="y" value="72" />
-    <option name="width" value="1920" />
-    <option name="height" value="1042" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -221,8 +252,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,24 +316,25 @@
       <updated>1569324856784</updated>
       <workItem from="1569324864219" duration="14498000" />
       <workItem from="1569559998201" duration="527000" />
+      <workItem from="1571213802619" duration="745000" />
+      <workItem from="1571666257762" duration="2540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15025000" />
+    <option name="totallyTimeSpent" value="18310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-223" y="72" width="1920" height="1042" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2451613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24840085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32038835" />
@@ -311,13 +343,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34835166" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32883817" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,19 +359,13 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/Proxy.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/reflect/Method.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/quoter/Main.java">
@@ -369,47 +395,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/InjectRandomIntAnotationBeanPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingControllerMBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/InjectRandomInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/Profiling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="769">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#180#181#0" expanded="true" />
@@ -419,12 +415,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingHandlerPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/Profiling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/InjectRandomInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/InjectRandomIntAnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingControllerMBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/quoter/ProfilingHandlerPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1552#2294#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,9 @@
+spring:
+   shell:
+      interactive:
+         enabled: false
+   liquibase:
+      enabled: true
+   h2:
+      console:
+         enabled: true
